@@ -70,16 +70,3 @@ const Header = () => (
 );
 
 export default Header;
-
-
-/*
-
-
-      <AvatarOverlay>
-        <OverlayButton onClick={() => alert()}>SEND ME A MESSAGE</OverlayButton>
-      </AvatarOverlay>
-
-
-      TODO - Explore interaction
-
-*/

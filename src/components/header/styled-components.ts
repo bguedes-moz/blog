@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   position: fixed;
-  height: 300px;
+  min-height: 300px;
   width: 100%;
   padding: 24px 0;
   display: flex;
@@ -16,29 +16,14 @@ export const Container = styled.header`
 
 export const  InfoContainer = styled.div`
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 `;
 
 export const AvatarContainer = styled.div`
   position: relative;
 `;
 
-/*
-
-  :hover {
-
-    img {
-      width: 320px;
-      height: 320px;
-      box-shadow: 0 0 36px ${COLORS.WHITE};
-    }
-
-    div {
-      opacity: 1;
-    }
-
-  }
-
-*/
 
 export const Avatar = styled.img`
   width: 260px;
