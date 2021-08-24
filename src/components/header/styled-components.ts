@@ -11,7 +11,7 @@ export const Container = styled.header`
   justify-content: center;
   align-items: center;
   background-color: ${COLORS.DARK_LIVER};
-  box-shadow: 0 0 8px ${COLORS.BLACK};
+  box-shadow: 0 0 8px ${COLORS.BLACK}55;
 `;
 
 export const  InfoContainer = styled.div`
@@ -22,6 +22,9 @@ export const  InfoContainer = styled.div`
 
 export const AvatarContainer = styled.div`
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 
@@ -63,6 +66,10 @@ export const PresentationCard = styled.section`
   flex-direction: column;
   margin-left: 32px;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 `;
 
 export const Name =  styled.h1`
@@ -71,12 +78,23 @@ export const Name =  styled.h1`
   font-size: 38px;
   margin: 0;
   padding-bottom: 6px;
+  text-shadow: 0 0 12px ${COLORS.BLACK};
+
+  @media (max-width: 768px) {
+    padding-top: 22px;
+    font-size: 32px;
+    text-align: center;
+  }
 `;
 
 export const InformationContainer = styled.div`
   display: flex;
   align-items: flex-end;
   padding-bottom: 6px;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 export const Info = styled.span`
@@ -94,6 +112,11 @@ export const Info = styled.span`
   a:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+
 `;
 
 export const ItalicText =  styled.span`
@@ -112,14 +135,24 @@ export const ItalicText =  styled.span`
   a:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+  
 `;
 
 export const ContactList = styled.nav`
+  
   display: flex;
   align-items: center;
 
-  * {
-    margin-right: 8px;
+  *:not(:last-child) {
+    margin-right: 14px;
+  }
+
+  @media (max-width: 768px) {
+    justify-content: center;
   }
 `;
 
