@@ -12,6 +12,11 @@ export const Container = styled.header`
   align-items: center;
   background-color: ${COLORS.DARK_LIVER};
   box-shadow: 0 0 8px ${COLORS.BLACK}55;
+
+  @media (max-width: 768px) {
+    position: relative;
+    padding: 48px 0;
+  }
 `;
 
 export const  InfoContainer = styled.div`
@@ -32,7 +37,7 @@ export const Avatar = styled.img`
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  box-shadow: 0 0 12px ${COLORS.BLACK};
+  box-shadow: 0 0 12px ${COLORS.BLACK}55;
   transition-duration: 1s;
 `;
 

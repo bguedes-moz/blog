@@ -1,5 +1,6 @@
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailOutlineRoundedIcon from '@material-ui/icons/MailOutlineRounded';
 import LocationCityIcon from '@material-ui/icons/LocationCity';
@@ -39,8 +40,8 @@ const Header = () => (
           <Info>
             <a href="https://mozantech.com" target="_blank" rel="noreferrer">
               Mozantech
-            </a>,
-            <a href="https://mindera.com" target="_blank" rel="noreferrer">
+            </a>
+            , <a href="https://mindera.com" target="_blank" rel="noreferrer">
               Mindera
             </a>
           </Info>
@@ -56,6 +57,9 @@ const Header = () => (
           </Anchor>
           <Anchor href="https://www.instagram.com/brunoac.guedes/" target="_blank" rel="noreferrer">
             <InstagramIcon style={{ color: COLORS.WHITE }} />
+          </Anchor>
+          <Anchor href="https://twitter.com/imbguedes" target="_blank" rel="noreferrer">
+            <TwitterIcon style={{ color: COLORS.WHITE }} />
           </Anchor>
           <Anchor href="https://www.linkedin.com/in/brunoacguedes/" target="_blank" rel="noreferrer">
             <LinkedInIcon style={{ color: COLORS.WHITE }} />

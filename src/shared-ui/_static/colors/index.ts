@@ -2,5 +2,7 @@ export enum COLORS {
   BLACK = "#000000",
   WHITE = "#FFFFFF",
   DARK_LIVER = "#474954",
-  LAVENDER_WEB = "#DAE0F2"
+  LAVENDER_WEB = "#DAE0F2",
+  SALMON = "#FF8F62",
+  IVORY = "#EEEDE7"
 }

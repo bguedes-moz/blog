@@ -10,13 +10,11 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <main>
-        <Switch>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </main>
+      <Switch>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
     </Router>
   );
 }
