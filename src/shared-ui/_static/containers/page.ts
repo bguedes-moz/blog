@@ -8,5 +8,6 @@ export const Page = styled.main`
 
   @media (max-width: 768px) {
     padding: 0;
+    min-height: auto;
   }
 `;
