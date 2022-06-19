@@ -18,7 +18,7 @@ export const TalkLink = styled.a`
   font-size: 28px;
   text-decoration: none;
   color: ${COLORS.SALMON};
-  padding-bottom: 8px;
+  padding-bottom: 2px;
   text-shadow: 0 0 4px ${COLORS.BLACK}22;
   :hover {
     text-decoration: underline;
@@ -26,6 +26,23 @@ export const TalkLink = styled.a`
 
   @media (max-width: 768px) {
     font-size: 24px;
+  }
+`;
+
+export const TalkSlides = styled.a`
+  font-family: ${mainFont};
+  font-weight: 800;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+  color: ${COLORS.DARK_LIVER};
+  padding-bottom: 8px;
+  :hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
   }
 `;
 
